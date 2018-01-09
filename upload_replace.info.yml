@@ -1,0 +1,5 @@
+name: Upload replace
+type: module
+description: Make the most recent version of a file always retain its original filename, older file with the same name are renamed by drupal standards "_0, _1, etc"
+version: VERSION
+core: 8.x
