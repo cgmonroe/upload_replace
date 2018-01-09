@@ -5,6 +5,7 @@ Based on patch supplied by lathan in issue https://www.drupal.org/project/upload
 
 To use with Composer add the following to the repositories section of your composer.json file:
 
+```
     "cgmonroe.upload_replace": {
       "type" : "package",
       "package" : {
@@ -20,9 +21,11 @@ To use with Composer add the following to the repositories section of your compo
         }
       }
     },
+```
 
 This assumes that you have the common drupal types set up in the composer file.  E.g.:
 
+```
   "extra" : {
     "installer-paths" : {
       "docroot/core" : [
@@ -39,4 +42,4 @@ This assumes that you have the common drupal types set up in the composer file. 
       ]
     },
   }
-
+```
